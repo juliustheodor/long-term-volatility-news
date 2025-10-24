@@ -22,7 +22,8 @@ The different datasets needed can be found here:
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
 * Macroeconomic Uncertainty (Jurado et al. ): MacroUncertaintyToCirculate.xlsx
-* VIX from FRED https://fred.stlouisfed.org/series/VIXCLS  VIX VIXCLS.xls 
+* Chicago Board Options Exchange, CBOE Volatility Index: VIX [VIXCLS] retrieved from FRED, 
+* Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/VIXCLS, VIXCLS.xls 
 
 
 
