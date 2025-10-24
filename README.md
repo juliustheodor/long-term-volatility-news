@@ -21,7 +21,7 @@ The different datasets needed can be found here:
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
-* 
+* Macroeconomic Uncertainty (Jurado et al. ): MacroUncertaintyToCirculate.xlsx
 
 
 
