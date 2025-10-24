@@ -15,6 +15,7 @@ As the financial data and Bloomberg Forecasts are proprietary, we cannot include
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal
 * High-frequency Return Data: TickData e_miniESfront_07_15_2022_07_03.csv and e_miniESfront_08_45_2022_07_04.csv
+* EURO_8_45_XX.csv and EURO_7_15_XX.csv
 
 #### Macroeconomic Control Variables 
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
