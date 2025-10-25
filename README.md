@@ -23,8 +23,8 @@ The different datasets needed can be found here:
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
 * Macroeconomic Uncertainty (Jurado et al. ): MacroUncertaintyToCirculate.xlsx
 * Chicago Board Options Exchange, CBOE Volatility Index: VIX [VIXCLS] retrieved from FRED, 
-* Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/VIXCLS, VIXCLS.xls 
-
+* Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/VIXCLS, VIXCLS.xls
+* GJR-GARCH
 
 
 ## Contact 
