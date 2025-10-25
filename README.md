@@ -18,7 +18,8 @@ The different datasets needed can be found here:
 * EURO_8_45_XX.csv and EURO_7_15_XX.csv
 
 #### Macroeconomic Control Variables 
-* FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors (sentiment_dec2020.xlsx) 
+* FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors (sentiment_dec2020.xlsx)
+* CBO Gap https://fred.stlouisfed.org/graph/?g=f1cZ $user/raw data/CBOGap.xls"
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
 * Macroeconomic Uncertainty (Jurado et al. ): MacroUncertaintyToCirculate.xlsx
