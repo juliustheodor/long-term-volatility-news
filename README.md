@@ -26,6 +26,7 @@ The different datasets needed can be found here:
 * Chicago Board Options Exchange, CBOE Volatility Index: VIX [VIXCLS] retrieved from FRED, 
 * Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/VIXCLS, VIXCLS.xls
 * GJR-GARCH
+* Bauer: Michael D. Bauer, Ben S. Bernanke, Eric Milstein (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy. Journal of Economic Perspectives. 
 
 
 ## Contact 
