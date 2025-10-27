@@ -13,9 +13,9 @@ Please cite as:
 While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. All data must be placed in the folder "raw data" using the correct file names. Please make sure to use the corresponding vintages, when available. 
 
 The different datasets needed can be found here:
-* Bloomberg Forecasts: Bloomberg Terminal
-* High-frequency Return Data: TickData e_miniESfront_07_15_2022_07_03.csv and e_miniESfront_08_45_2022_07_04.csv
-* EURO_8_45_XX.csv and EURO_7_15_XX.csv
+* Bloomberg Forecasts: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
+* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50. 
+
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors (sentiment_dec2020.xlsx)
