@@ -10,7 +10,7 @@ Please cite as:
 
 ## Data sets needed
 
-While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. 
+While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. All data must be placed in the folder "raw data" using the correct file names. Please make sure to use the corresponding vintages, when available. 
 
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal
@@ -33,6 +33,8 @@ The different datasets needed can be found here:
 * CPIAUCSL.xlsx (?)
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
 * 
+
+After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
 
 ## Contact 
