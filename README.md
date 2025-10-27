@@ -44,4 +44,4 @@ Please address any questions about the code to:
 We do not assume any responsibilities for results produced with the available code. Please let us know, if you have suggestions for further versions. 
 
 ## Software 
-The codes have been written in Matlab (R2023b, 64-bit macOS) and StataMP (version 18.0 for Apple Silicon) on macOS Sequoia (15.5, M2). 
+The codes have been written in Matlab (R2021b - R2025b, 64-bit macOS) and StataMP (version 16.0 - 18.0 for Apple Silicon) on macOS Sequoia (15.5, M2). 
