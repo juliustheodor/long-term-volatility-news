@@ -10,7 +10,7 @@ Conrad, Christian and Schoelkopf, Julius Theodor and Tushteva, Nikoleta, Long-Te
 
 ## Data sets needed
 
-As the financial data and Bloomberg Forecasts are proprietary, we cannot include the data in this repository. 
+While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. 
 
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal
