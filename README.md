@@ -5,7 +5,7 @@
 
 Please cite as:
 
-Conrad, Christian and Schoelkopf, Julius Theodor and Tushteva, Nikoleta, Long-Term Volatility Shapes the Stock Market's Sensitivity to News (2025, first version 2023). Available at SSRN: http://dx.doi.org/10.2139/ssrn.4632733.
+> Conrad, Christian and Schoelkopf, Julius Theodor and Tushteva, Nikoleta, Long-Term Volatility Shapes the Stock Market's Sensitivity to News (2025, first version 2023). Available at SSRN: http://dx.doi.org/10.2139/ssrn.4632733.
 
 
 ## Data sets needed
@@ -28,10 +28,11 @@ The different datasets needed can be found here:
 * Bauer: Michael D. Bauer, Ben S. Bernanke, Eric Milstein (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy. Journal of Economic Perspectives.
 * The CBOE/CBOT 10-year U.S. Treasury Note Volatility IndexSM (ticker symbol TYVIXSM) measures the expected volatility of the price of 10-year Treasury Note futures. Bloomberg
 * MOVE Index
-* Spread between moodys corporate bond A index yield and the us gov 10 year yield
-* 10-year Treasury yields minus 3-month Treasury bill rates from FRED T103YM 
+* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal 
+* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) 
 * CPIAUCSL.xlsx (?)
-* USAGDPDEFQISMEI.xlsx (?) GDP Deflator? 
+* USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
+* 
 
 
 ## Contact 
