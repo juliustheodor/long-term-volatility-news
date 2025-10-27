@@ -17,14 +17,13 @@ The different datasets needed can be found here:
 * High-frequency Return Data: TickData e_miniESfront_07_15_2022_07_03.csv and e_miniESfront_08_45_2022_07_04.csv
 * EURO_8_45_XX.csv and EURO_7_15_XX.csv
 
-#### Control Variables 
+#### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors (sentiment_dec2020.xlsx)
-* CBO Gap https://fred.stlouisfed.org/graph/?g=f1cZ $user/raw data/CBOGap.xls"
+* [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ) 
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
-* Macroeconomic Uncertainty (Jurado et al. ): MacroUncertaintyToCirculate.xlsx
-* Chicago Board Options Exchange, CBOE Volatility Index: VIX [VIXCLS] retrieved from FRED, 
-* Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/VIXCLS, VIXCLS.xls
+* [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) 
+* [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * GJR-GARCH
 * Bauer: Michael D. Bauer, Ben S. Bernanke, Eric Milstein (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy. Journal of Economic Perspectives.
 * The CBOE/CBOT 10-year U.S. Treasury Note Volatility IndexSM (ticker symbol TYVIXSM) measures the expected volatility of the price of 10-year Treasury Note futures. Bloomberg
