@@ -25,7 +25,7 @@ The different datasets needed can be found here:
 * [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) 
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * GJR-GARCH
-* Bauer: Michael D. Bauer, Ben S. Bernanke, Eric Milstein (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy. Journal of Economic Perspectives.
+* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) 
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal 
 * MOVE Index, retrieved from Bloomberg Terminal 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal 
