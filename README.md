@@ -1,8 +1,5 @@
 # Replication files for Conrad, C., Schoelkopf, J., Tushteva, N. (2025) "Long-Term Volatility Shapes the Stock Market’s Sensitivity to News", Journal of Econometrics
 
-
-
-
 Please cite as:
 
 > Conrad, Christian and Schoelkopf, Julius Theodor and Tushteva, Nikoleta, Long-Term Volatility Shapes the Stock Market's Sensitivity to News (2025, first version 2023). Available at SSRN: http://dx.doi.org/10.2139/ssrn.4632733.
@@ -15,7 +12,6 @@ While the high-frequency return data (purchased from TickData) and the announcem
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
 * High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50. 
-
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
