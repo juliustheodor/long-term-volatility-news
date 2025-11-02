@@ -11,7 +11,8 @@ While the high-frequency return data (purchased from TickData) and the announcem
 
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
-* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50. 
+* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50.
+* Daily Returns for MF2-GARCH 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
@@ -28,7 +29,38 @@ The different datasets needed can be found here:
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) 
 * CPIAUCSL.xlsx (?)
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
-* 
+
+Market indexes
+SP500_index_1983_2021.csv → ⇒ SP.dta
+EURO_7_15_XX.csv → ⇒ Eurostoxx830.dta
+EURO_8_45_XX.csv → ⇒ Eurostoxx10.dta
+Volatility / risk
+VIXCLS.xls (FRED, sheet “FRED Graph”, range A11:B8621) → ⇒ VIX.dta
+TYVIX.xlsx (sheet “TYVIX”) → ⇒ TYVIX.dta
+bauer_risk_index.xlsx (sheet “Data”) → ⇒ RiskAppetite.dta
+Bloomberg_additional_indicators.xlsx (sheet “MOVE”, A6:B6447) → ⇒ MOVE.dta
+Futures-based volatility forecasts
+Bloomberg_futures.xlsx (sheet “2Y Treasury future”) → ⇒ TreasuryFut2yVolaForecasts6.dta
+Bloomberg_futures.xlsx (sheet “5Y Treasury future”) → ⇒ TreasuryFut5yVolaForecasts6.dta
+Bloomberg_futures.xlsx (sheet “10Y Treasury future”) → ⇒ TreasuryFut10YVolaForecasts6.dta (merges in boersenfeiertage.dta)
+Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) → ⇒ EurodollarForecasts6.dta (merges in boersenfeiertage.dta)
+Rates / term structure / spreads
+T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) → ⇒ YieldCurveSlope.dta
+Credit spread.xlsx (sheet “BASPCAAA Index”) → ⇒ SpreadMoodys.dta
+Tbill3M.xlsx (sheet “Daily”) → ⇒ TBill3M.dta
+Macroeconomic series
+USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
+MacroUncertaintyToCirculate.xlsx (sheet “Macro Uncertainty”) → ⇒ Ludvigson_MacroUncert.dta
+CBOGap.xls (FRED, sheet “FRED Graph”, A11:B311) → ⇒ GapBEA.dta
+Policy / sentiment / events
+sentiment_dec2020.xlsx (sheet “Data”) → ⇒ sentiment.dta
+FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
+mpu.csv → ⇒ MPUBauer2.dta
+HRS_MPU_monthly-4.xlsx (sheet “Sheet1”) → ⇒ HRSMPU2.dta
+ECBPress.xlsx → ⇒ ECBPress.dta
+Model inputs
+GJR_EW.xlsx (sheet “Sheet1”) → ⇒ GJREW.dta
+MF2optimalBICChoiceEWMatrix20240326Deltatau.xlsx (sheet “Sheet1”) → ⇒ MF2optimalBICinmean.dta
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
