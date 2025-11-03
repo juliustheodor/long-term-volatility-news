@@ -12,6 +12,9 @@ While the high-frequency return data (purchased from TickData) and the announcem
 The different datasets needed can be found here:
 * Bloomberg Forecasts: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
 * High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50.
+    * SP500_index_1983_2021.csv to be saved as SP.dta
+    * EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
+    * EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
 * Daily Returns for MF2-GARCH 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
@@ -31,10 +34,7 @@ The different datasets needed can be found here:
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
 * 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi 
 
-Market indexes
-SP500_index_1983_2021.csv → ⇒ SP.dta
-EURO_7_15_XX.csv → ⇒ Eurostoxx830.dta
-EURO_8_45_XX.csv → ⇒ Eurostoxx10.dta
+
 Volatility / risk
 VIXCLS.xls (FRED, sheet “FRED Graph”, range A11:B8621) → ⇒ VIX.dta
 TYVIX.xlsx (sheet “TYVIX”) → ⇒ TYVIX.dta
