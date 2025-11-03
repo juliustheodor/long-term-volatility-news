@@ -1,0 +1,94 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Baseline}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}\\
+\hline
+main                &                     &                     &                     &                     &                     &                     \\
+Initial Jobless Claims&       0.049\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.007)         &                     &                     &                     &                     &                     \\
+[1em]
+Employees on Nonfarm Payrolls&       0.212\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.029)         &                     &                     &                     &                     &                     \\
+[1em]
+S\_RSTAXMOM          &       0.110\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.016)         &                     &                     &                     &                     &                     \\
+[1em]
+New  Family Houses Sold&       0.046\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.011)         &                     &                     &                     &                     &                     \\
+[1em]
+Durable Goods Order &       0.073\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.017)         &                     &                     &                     &                     &                     \\
+[1em]
+Manufacturers New Orders&       0.046\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.013)         &                     &                     &                     &                     &                     \\
+[1em]
+Consumer Price Index&       0.082\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.018)         &                     &                     &                     &                     &                     \\
+[1em]
+Consumer Confidence &       0.132\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.018)         &                     &                     &                     &                     &                     \\
+[1em]
+Purchasing Managers Index&       0.152\sym{***}&                     &                     &                     &                     &                     \\
+                    &     (0.019)         &                     &                     &                     &                     &                     \\
+[1em]
+Constant            &       0.007\sym{*}  &       0.009\sym{**} &       0.008\sym{**} &       0.008\sym{**} &       0.008\sym{**} &       0.009\sym{**} \\
+                    &     (0.004)         &     (0.004)         &     (0.004)         &     (0.004)         &     (0.004)         &     (0.004)         \\
+\hline
+gammasigma          &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.451\sym{**} &                     &                     &       0.048         &       0.349         \\
+                    &                     &     (0.219)         &                     &                     &     (0.233)         &     (0.567)         \\
+\hline
+INJCJC              &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.042\sym{***}&       0.047\sym{***}&       0.047\sym{***}&       0.046\sym{***}&       0.047\sym{***}\\
+                    &                     &     (0.010)         &     (0.006)         &     (0.008)         &     (0.006)         &     (0.006)         \\
+\hline
+NFPTCH              &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.193\sym{***}&       0.190\sym{***}&       0.208\sym{***}&       0.190\sym{***}&       0.191\sym{***}\\
+                    &                     &     (0.031)         &     (0.024)         &     (0.029)         &     (0.024)         &     (0.023)         \\
+\hline
+RSTAXMOM            &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.103\sym{***}&       0.090\sym{***}&       0.111\sym{***}&       0.090\sym{***}&       0.089\sym{***}\\
+                    &                     &     (0.017)         &     (0.013)         &     (0.016)         &     (0.013)         &     (0.014)         \\
+\hline
+NHSLTOT             &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.053\sym{***}&       0.059\sym{***}&       0.046\sym{***}&       0.059\sym{***}&       0.059\sym{***}\\
+                    &                     &     (0.012)         &     (0.012)         &     (0.011)         &     (0.012)         &     (0.012)         \\
+\hline
+DGNOCHNG            &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.080\sym{***}&       0.075\sym{***}&       0.074\sym{***}&       0.075\sym{***}&       0.074\sym{***}\\
+                    &                     &     (0.017)         &     (0.015)         &     (0.017)         &     (0.015)         &     (0.015)         \\
+\hline
+TMNOCHNG            &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.046\sym{***}&       0.042\sym{***}&       0.046\sym{***}&       0.042\sym{***}&       0.042\sym{***}\\
+                    &                     &     (0.013)         &     (0.013)         &     (0.013)         &     (0.013)         &     (0.013)         \\
+\hline
+CPI                 &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.084\sym{***}&       0.058\sym{***}&       0.085\sym{***}&       0.059\sym{***}&       0.059\sym{***}\\
+                    &                     &     (0.019)         &     (0.016)         &     (0.018)         &     (0.016)         &     (0.016)         \\
+\hline
+CONCCONF            &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.134\sym{***}&       0.125\sym{***}&       0.133\sym{***}&       0.126\sym{***}&       0.126\sym{***}\\
+                    &                     &     (0.018)         &     (0.014)         &     (0.018)         &     (0.014)         &     (0.014)         \\
+\hline
+NAPMPMI             &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &       0.136\sym{***}&       0.136\sym{***}&       0.150\sym{***}&       0.135\sym{***}&       0.134\sym{***}\\
+                    &                     &     (0.023)         &     (0.019)         &     (0.020)         &     (0.019)         &     (0.018)         \\
+\hline
+gammat              &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &                     &       1.699\sym{***}&                     &       1.638\sym{***}&       1.299\sym{**} \\
+                    &                     &                     &     (0.239)         &                     &     (0.419)         &     (0.625)         \\
+\hline
+gammah              &                     &                     &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &       0.129         &                     &      -0.321         \\
+                    &                     &                     &                     &     (0.265)         &                     &     (0.674)         \\
+\hline
+Observations        &        2826         &        2826         &        2826         &        2826         &        2826         &        2826         \\
+Adjusted \(R^{2}\)  &                     &       0.205         &       0.230         &       0.190         &       0.229         &       0.229         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}

@@ -1,0 +1,187 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{Regression excluding the COVID-19 pandemic.}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}&\multicolumn{1}{c}{return}\\
+\hline
+b1                  &                     &                     &                     &                     \\
+Constant            &       0.007\sym{*}  &       0.007\sym{*}  &       0.030\sym{***}&       0.022\sym{***}\\
+                    &     (0.004)         &     (0.004)         &     (0.007)         &     (0.005)         \\
+\hline
+gammat              &                     &                     &                     &                     \\
+Constant            &       0.477\sym{***}&                     &                     &                     \\
+                    &     (0.078)         &                     &                     &                     \\
+\hline
+INJCJC              &                     &                     &                     &                     \\
+Constant            &       0.064\sym{***}&       0.065\sym{***}&                     &       0.087\sym{***}\\
+                    &     (0.008)         &     (0.008)         &                     &     (0.013)         \\
+\hline
+NFPTCH              &                     &                     &                     &                     \\
+Constant            &       0.276\sym{***}&       0.285\sym{***}&                     &       0.282\sym{***}\\
+                    &     (0.027)         &     (0.028)         &                     &     (0.030)         \\
+\hline
+RSTAXMOM            &                     &                     &                     &                     \\
+Constant            &       0.119\sym{***}&       0.124\sym{***}&                     &       0.151\sym{***}\\
+                    &     (0.018)         &     (0.019)         &                     &     (0.027)         \\
+\hline
+NHSLTOT             &                     &                     &                     &                     \\
+Constant            &       0.069\sym{***}&       0.070\sym{***}&                     &       0.101\sym{***}\\
+                    &     (0.014)         &     (0.015)         &                     &     (0.020)         \\
+\hline
+DGNOCHNG            &                     &                     &                     &                     \\
+Constant            &       0.076\sym{***}&       0.063\sym{***}&                     &       0.070\sym{***}\\
+                    &     (0.016)         &     (0.015)         &                     &     (0.014)         \\
+\hline
+TMNOCHNG            &                     &                     &                     &                     \\
+Constant            &       0.050\sym{***}&       0.040\sym{***}&                     &       0.042\sym{***}\\
+                    &     (0.014)         &     (0.013)         &                     &     (0.013)         \\
+\hline
+CPI                 &                     &                     &                     &                     \\
+Constant            &       0.063\sym{***}&       0.080\sym{***}&                     &       0.076\sym{***}\\
+                    &     (0.019)         &     (0.020)         &                     &     (0.019)         \\
+\hline
+CONCCONF            &                     &                     &                     &                     \\
+Constant            &       0.143\sym{***}&       0.139\sym{***}&                     &       0.146\sym{***}\\
+                    &     (0.016)         &     (0.017)         &                     &     (0.017)         \\
+\hline
+NAPMPMI             &                     &                     &                     &                     \\
+Constant            &       0.160\sym{***}&       0.156\sym{***}&                     &       0.156\sym{***}\\
+                    &     (0.021)         &     (0.020)         &                     &     (0.021)         \\
+\hline
+gammatauRealActivity&                     &                     &                     &                     \\
+Constant            &                     &       0.409\sym{***}&       0.427\sym{***}&       0.426\sym{***}\\
+                    &                     &     (0.091)         &     (0.093)         &     (0.095)         \\
+\hline
+gammatauInvestmentCons&                     &                     &                     &                     \\
+Constant            &                     &       0.994\sym{***}&       0.898\sym{***}&       0.981\sym{***}\\
+                    &                     &     (0.201)         &     (0.214)         &     (0.207)         \\
+\hline
+gammatauForwardlooking&                     &                     &                     &                     \\
+Constant            &                     &       0.563\sym{***}&       0.548\sym{***}&       0.555\sym{***}\\
+                    &                     &     (0.142)         &     (0.161)         &     (0.160)         \\
+\hline
+gammatauPrices      &                     &                     &                     &                     \\
+Constant            &                     &      -0.160         &      -0.174         &      -0.157         \\
+                    &                     &     (0.258)         &     (0.310)         &     (0.330)         \\
+\hline
+gamma1              &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.032\sym{***}&       0.029\sym{***}\\
+                    &                     &                     &     (0.011)         &     (0.010)         \\
+\hline
+INJCJCgood          &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.028\sym{***}&                     \\
+                    &                     &                     &     (0.009)         &                     \\
+\hline
+INJCJCbad           &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.095\sym{***}&                     \\
+                    &                     &                     &     (0.015)         &                     \\
+\hline
+NFPTCHgood          &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.265\sym{***}&                     \\
+                    &                     &                     &     (0.045)         &                     \\
+\hline
+NFPTCHbad           &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.300\sym{***}&                     \\
+                    &                     &                     &     (0.036)         &                     \\
+\hline
+RSTAXMOMgood        &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.104\sym{***}&                     \\
+                    &                     &                     &     (0.022)         &                     \\
+\hline
+RSTAXMOMbad         &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.145\sym{***}&                     \\
+                    &                     &                     &     (0.029)         &                     \\
+\hline
+DGNOCHNGgood        &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.038\sym{**} &                     \\
+                    &                     &                     &     (0.019)         &                     \\
+\hline
+DGNOCHNGbad         &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.099\sym{***}&                     \\
+                    &                     &                     &     (0.022)         &                     \\
+\hline
+TMNOCHNGgood        &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.023         &                     \\
+                    &                     &                     &     (0.023)         &                     \\
+\hline
+TMNOCHNGbad         &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.062\sym{***}&                     \\
+                    &                     &                     &     (0.015)         &                     \\
+\hline
+NHSgood             &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.052\sym{**} &                     \\
+                    &                     &                     &     (0.021)         &                     \\
+\hline
+NHSbad              &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.091\sym{***}&                     \\
+                    &                     &                     &     (0.020)         &                     \\
+\hline
+CONCCONFgood        &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.088\sym{***}&                     \\
+                    &                     &                     &     (0.019)         &                     \\
+\hline
+CONCCONFbad         &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.199\sym{***}&                     \\
+                    &                     &                     &     (0.028)         &                     \\
+\hline
+NAPMPMIgood         &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.138\sym{***}&                     \\
+                    &                     &                     &     (0.026)         &                     \\
+\hline
+NAPMPMIbad          &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.176\sym{***}&                     \\
+                    &                     &                     &     (0.034)         &                     \\
+\hline
+CPIgood             &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.056\sym{**} &                     \\
+                    &                     &                     &     (0.023)         &                     \\
+\hline
+CPIbad              &                     &                     &                     &                     \\
+Constant            &                     &                     &       0.100\sym{***}&                     \\
+                    &                     &                     &     (0.033)         &                     \\
+\hline
+INJCJCSq            &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.032\sym{***}\\
+                    &                     &                     &                     &     (0.009)         \\
+\hline
+RSTAXMOMSq          &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.035\sym{**} \\
+                    &                     &                     &                     &     (0.017)         \\
+\hline
+NFPTCHSq            &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.007         \\
+                    &                     &                     &                     &     (0.016)         \\
+\hline
+DGNOCHNGSq          &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.014\sym{*}  \\
+                    &                     &                     &                     &     (0.008)         \\
+\hline
+TMNOCHNGSq          &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.009         \\
+                    &                     &                     &                     &     (0.008)         \\
+\hline
+NHSLTOTSq           &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.040\sym{***}\\
+                    &                     &                     &                     &     (0.012)         \\
+\hline
+CONCCONFSq          &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.029\sym{***}\\
+                    &                     &                     &                     &     (0.011)         \\
+\hline
+NAPMPMISq           &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.008         \\
+                    &                     &                     &                     &     (0.014)         \\
+\hline
+CPISq               &                     &                     &                     &                     \\
+Constant            &                     &                     &                     &      -0.012         \\
+                    &                     &                     &                     &     (0.013)         \\
+\hline
+Observations        &        2555         &        2555         &        2555         &        2555         \\
+Adjusted \(R^{2}\)  &       0.274         &       0.277         &       0.287         &       0.289         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.10\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+\end{table}
