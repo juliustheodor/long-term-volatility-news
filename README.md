@@ -21,7 +21,7 @@ While the high-frequency return data (purchased from TickData) and the announcem
 
 The different datasets needed can be found here:
 * Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
-* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50.
+* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50 (obtained using TickWrite 7 Data Management Software) 
     * e_miniESfront_07_15_2022_07_03.csv to be saved as SPmini830.dta
     * e_miniESfront_08_45_2022_07_04.csv to be saved as SPmini10.dta
     * SP500_index_1983_2021.csv to be saved as SP.dta
@@ -84,7 +84,7 @@ Please address any questions about the code to:
 * Christian Conrad, Heidelberg University, Department of Economics. Email: christian.conrad [at] awi.uni-heidelberg.de
 * Julius Schoelkopf, Heidelberg University, Department of Economics. Email: julius.schoelkopf [at] awi.uni-heidelberg.de
 
-We do not assume any responsibilities for results produced with the available code. Please let us know, if you have suggestions for further versions. 
+We do not assume any responsibilities for results produced with the available code. 
 
 ## Software 
 The codes have been written in Matlab (R2021b - R2025b, 64-bit macOS) and StataMP (version 16.0 - 18.0 for Apple Silicon) on macOS Sequoia (15.5, M2). 
