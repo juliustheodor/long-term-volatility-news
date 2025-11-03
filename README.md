@@ -29,6 +29,7 @@ The different datasets needed can be found here:
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) 
 * CPIAUCSL.xlsx (?)
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
+* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi 
 
 Market indexes
 SP500_index_1983_2021.csv → ⇒ SP.dta
