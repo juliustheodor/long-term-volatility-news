@@ -41,10 +41,10 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx` 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal, to be saved as  `Credit spread.xlsx`
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) to be saved as `T10Y3M.xls` 
-* `Bloomberg_futures.xlsx` saved in the sheet “2Y Treasury future”
-* `Bloomberg_futures.xlsx` saved in the sheet “5Y Treasury future”
-* `Bloomberg_futures.xlsx` saved in the sheet “10Y Treasury future”
-* `Bloomberg_futures.xlsx` saved in the sheet “3M EURODOLLAR”
+* Last price 2Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “2Y Treasury future”
+* Last price 5Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “5Y Treasury future”
+* Last price 10Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “10Y Treasury future”
+* Last price 3M Eurodollar futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “3M EURODOLLAR”
 * [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI), to be saved as `USAGDPDEFQISMEI.xlsx` 
 * 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi `Tbill3M.xlsx` 
 * List of FOMC-Meetings to be saved as `FOMCMeetings.xlsx` 
