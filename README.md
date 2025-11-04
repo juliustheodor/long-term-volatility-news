@@ -37,16 +37,15 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * Expanding window GJR-GARCH forecasts, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. To be saved as `GJR-GARCH GJR_EW.xlsx`.  
 * [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) `VIXCLS.xls`  
 * [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) `bauer_risk_index.xlsx`
-* CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal 
-* MOVE Index, retrieved from Bloomberg Terminal to be saved as Bloomberg_additional_indicators.xlsx 
-* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal  Credit spread.xlsx (sheet “BASPCAAA Index”)
-* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) `TYVIX.xlsx`
+* CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal `TYVIX.xlsx`
+* MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx' 
+* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal  `Credit spread.xlsx`
+* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) * T10Y3M.xls 
 * CPIAUCSL.xlsx 
-* Bloomberg_futures.xlsx (sheet “2Y Treasury future”) 
-* Bloomberg_futures.xlsx (sheet “5Y Treasury future”)
-* Bloomberg_futures.xlsx (sheet “10Y Treasury future”)
-* Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) 
-* T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) 
+* Bloomberg_futures.xlsx saved in the sheet “2Y Treasury future”
+* Bloomberg_futures.xlsx saved in the sheet “5Y Treasury future”
+* Bloomberg_futures.xlsx saved in the sheet “10Y Treasury future”
+* Bloomberg_futures.xlsx saved in the sheet “3M EURODOLLAR”
 * [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI) to be saved as USAGDPDEFQISMEI.xlsx 
 * 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi Tbill3M.xlsx 
 * List of FOMC-Meetings to be saved as FOMCMeetings.xlsx 
