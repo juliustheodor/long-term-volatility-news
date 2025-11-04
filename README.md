@@ -10,9 +10,8 @@ The replication files are provided in a chronological order
 
 1) `mf2garch estimation/MF2GARCH_estimation.m` (MATLALB) generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis. 
 2) `code/2_Import_Dataset.do` (Stata) imports raw datasets, harmonizes variables, and outputs analysis-ready Stata (.dta) files.
-3) `code/3_Empirical Analysis.do` (Stata) merges the previously generated analysis files, estimates the pre-specified models, and exports publication-ready tables and figures.
+3) `code/3_Empirical Analysis.do` (Stata) merges the previously generated analysis files, estimates the regression models, and exports publication-ready tables and figures. The do-file puts the figures of the paper into the folder 'figures' and the tables into the folder 'tables'.
 
-The scripts puts the figures of the paper into the folder 'figures' and the tables into the folder 'tables'.
 
 ## Data sets needed
 
@@ -20,12 +19,12 @@ While the high-frequency return data (purchased from TickData) and the announcem
 
 The different datasets needed can be found here:
 * Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
-* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50 (obtained using TickWrite 7 Data Management Software) 
-    * e_miniESfront_07_15_2022_07_03.csv to be saved as SPmini830.dta
-    * e_miniESfront_08_45_2022_07_04.csv to be saved as SPmini10.dta
-    * SP500_index_1983_2021.csv to be saved as SP.dta
-    * EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
-    * EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
+* High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50 (obtained using TickWrite 7 Data Management Software with Chicago Time setting) from 2001 onwards:  
+    * S&P500 E-mini futures prices for 8:30 am EST: e_miniESfront_07_15_2022_07_03.csv to be saved as SPmini830.dta
+    * S&P500 E-mini futures prices for 10:00 am EST: e_miniESfront_08_45_2022_07_04.csv to be saved as SPmini10.dta
+    * S&P500 prices for 10:00 am EST: SP500_index_1983_2021.csv to be saved as SP.dta
+    * Euro Stoxx 50 prices for 8:30 am EST: EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
+    * Euro Stoxx 50 prices for 10:00 am EST: EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
 * Daily Returns  from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation from August 15, 1969 onwards. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
