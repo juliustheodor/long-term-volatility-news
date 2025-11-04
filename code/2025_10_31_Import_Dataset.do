@@ -777,7 +777,7 @@ save "$user/merged data/TYVIX.dta", replace
 
 
 **********************************************************************************
-* Import MF2-GARCH volatility forecasts 
+* Import MF2-GARCH volatility forecasts (from Matlab Export)
 **********************************************************************************
 
 import excel "$user/mf2garch estimation/MF2optimalBICChoiceEWMatrix20240326Deltatau.xlsx", sheet("Sheet1") firstrow clear 
