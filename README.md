@@ -18,7 +18,7 @@ The replication files are provided in a chronological order
 While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. All data must be placed in the folder "raw data" using the correct file names. Please make sure to use the corresponding vintages, when available. The different datasets needed can be found here:
 
 #### Return Data 
-* Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) to be saved in `Bloomberg2023.xlsx' 
+* Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) to be saved in `Bloomberg2023.xlsx` 
 * High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50 (obtained using TickWrite 7 Data Management Software with Chicago Time setting) from 2001 onwards:  
     * S&P500 E-mini futures prices for 8:30 am EST: `e_miniESfront_07_15_2022_07_03.csv` to be saved as `SPmini830.dta`
     * S&P500 E-mini futures prices for 10:00 am EST: `e_miniESfront_08_45_2022_07_04.csv` to be saved as `SPmini10.dta`
