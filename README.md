@@ -40,7 +40,7 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal `TYVIX.xlsx`
 * MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx' 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal  `Credit spread.xlsx`
-* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) * T10Y3M.xls 
+* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) to be saved as T10Y3M.xls 
 * CPIAUCSL.xlsx 
 * Bloomberg_futures.xlsx saved in the sheet “2Y Treasury future”
 * Bloomberg_futures.xlsx saved in the sheet “5Y Treasury future”
