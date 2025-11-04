@@ -35,9 +35,9 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) `MacroUncertaintyToCirculate.xlsx` (Vintage from February 2023) 
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * Expanding window GJR-GARCH forecasts, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. To be saved as `GJR-GARCH GJR_EW.xlsx`.  
-* [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) `VIXCLS.xls`  
+* [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) to be saved as `VIXCLS.xls`  
 * [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx), to be saved as `bauer_risk_index.xlsx`
-* CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal `TYVIX.xlsx`
+* CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal and to be saved as `TYVIX.xlsx`
 * MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx` 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal, to be saved as  `Credit spread.xlsx`
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) to be saved as `T10Y3M.xls` 
