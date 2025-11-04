@@ -25,30 +25,30 @@ The different datasets needed can be found here:
     * S&P500 prices for 10:00 am EST: SP500_index_1983_2021.csv to be saved as SP.dta
     * Euro Stoxx 50 prices for 8:30 am EST: EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
     * Euro Stoxx 50 prices for 10:00 am EST: EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
-* Daily Returns  from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation from August 15, 1969 onwards. 
+* Daily Returns from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation from August 15, 1969 onwards. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
-* [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ) 
+* [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ) to be saved as CBOGap.xls 
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
 * [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) 
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
-* GJR-GARCH
-* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) 
+* Expanding window GJR-GARCH GJR_EW.xlsx, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. 
+* VIXCLS.xls FRED 
+* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) bauer_risk_index.xlsx
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal 
 * MOVE Index, retrieved from Bloomberg Terminal 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal 
-* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) 
+* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) TYVIX.xlsx
 * CPIAUCSL.xlsx (?)
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
-* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi 
+* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi
+* FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
+* ECBPress.xlsx → ⇒ ECBPress.dta 
 
 
-Volatility / risk
-VIXCLS.xls (FRED, sheet “FRED Graph”, range A11:B8621) → ⇒ VIX.dta
-TYVIX.xlsx (sheet “TYVIX”) → ⇒ TYVIX.dta
-bauer_risk_index.xlsx (sheet “Data”) → ⇒ RiskAppetite.dta
+
 Bloomberg_additional_indicators.xlsx (sheet “MOVE”, A6:B6447) → ⇒ MOVE.dta
 Futures-based volatility forecasts
 Bloomberg_futures.xlsx (sheet “2Y Treasury future”) → ⇒ TreasuryFut2yVolaForecasts6.dta
@@ -63,15 +63,10 @@ Macroeconomic series
 USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
 MacroUncertaintyToCirculate.xlsx (sheet “Macro Uncertainty”) → ⇒ Ludvigson_MacroUncert.dta
 CBOGap.xls (FRED, sheet “FRED Graph”, A11:B311) → ⇒ GapBEA.dta
-Policy / sentiment / events
+
 sentiment_dec2020.xlsx (sheet “Data”) → ⇒ sentiment.dta
-FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
-mpu.csv → ⇒ MPUBauer2.dta
-HRS_MPU_monthly-4.xlsx (sheet “Sheet1”) → ⇒ HRSMPU2.dta
-ECBPress.xlsx → ⇒ ECBPress.dta
-Model inputs
-GJR_EW.xlsx (sheet “Sheet1”) → ⇒ GJREW.dta
-MF2optimalBICChoiceEWMatrix20240326Deltatau.xlsx (sheet “Sheet1”) → ⇒ MF2optimalBICinmean.dta
+
+
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
