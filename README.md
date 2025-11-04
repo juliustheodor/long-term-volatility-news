@@ -28,18 +28,18 @@ The different datasets needed can be found here:
 * Daily Returns from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation from August 15, 1969 onwards. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
-* FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
+* FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors (sentiment_dec2020.xlsx) 
 * [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ) to be saved as CBOGap.xls 
 * From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): Tbill3M.xlsx
 * [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
-* [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) 
+* [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) MacroUncertaintyToCirculate.xlsx (Vintage from February 2023) 
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * Expanding window GJR-GARCH GJR_EW.xlsx, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. 
 * VIXCLS.xls FRED 
 * [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) bauer_risk_index.xlsx
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal 
 * MOVE Index, retrieved from Bloomberg Terminal 
-* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal 
+* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal  Credit spread.xlsx (sheet “BASPCAAA Index”)
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) TYVIX.xlsx
 * CPIAUCSL.xlsx (?)
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
@@ -47,6 +47,7 @@ The different datasets needed can be found here:
 * FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
 * ECBPress.xlsx → ⇒ ECBPress.dta 
 
+After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
 
 Bloomberg_additional_indicators.xlsx (sheet “MOVE”, A6:B6447) → ⇒ MOVE.dta
@@ -55,20 +56,10 @@ Bloomberg_futures.xlsx (sheet “2Y Treasury future”) → ⇒ TreasuryFut2yVol
 Bloomberg_futures.xlsx (sheet “5Y Treasury future”) → ⇒ TreasuryFut5yVolaForecasts6.dta
 Bloomberg_futures.xlsx (sheet “10Y Treasury future”) → ⇒ TreasuryFut10YVolaForecasts6.dta (merges in boersenfeiertage.dta)
 Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) → ⇒ EurodollarForecasts6.dta (merges in boersenfeiertage.dta)
-Rates / term structure / spreads
 T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) → ⇒ YieldCurveSlope.dta
-Credit spread.xlsx (sheet “BASPCAAA Index”) → ⇒ SpreadMoodys.dta
 Tbill3M.xlsx (sheet “Daily”) → ⇒ TBill3M.dta
-Macroeconomic series
 USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
-MacroUncertaintyToCirculate.xlsx (sheet “Macro Uncertainty”) → ⇒ Ludvigson_MacroUncert.dta
-CBOGap.xls (FRED, sheet “FRED Graph”, A11:B311) → ⇒ GapBEA.dta
 
-sentiment_dec2020.xlsx (sheet “Data”) → ⇒ sentiment.dta
-
-
-
-After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
 
 ## Contact 
