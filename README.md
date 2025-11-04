@@ -36,20 +36,19 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * Expanding window GJR-GARCH forecasts, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. To be saved as `GJR-GARCH GJR_EW.xlsx`.  
 * [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) `VIXCLS.xls`  
-* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) `bauer_risk_index.xlsx`
+* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx), to be saved as `bauer_risk_index.xlsx`
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal `TYVIX.xlsx`
 * MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx` 
-* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal  `Credit spread.xlsx`
+* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal, to be saved as  `Credit spread.xlsx`
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) to be saved as `T10Y3M.xls` 
-* CPIAUCSL.xlsx 
-* Bloomberg_futures.xlsx saved in the sheet “2Y Treasury future”
-* Bloomberg_futures.xlsx saved in the sheet “5Y Treasury future”
-* Bloomberg_futures.xlsx saved in the sheet “10Y Treasury future”
-* Bloomberg_futures.xlsx saved in the sheet “3M EURODOLLAR”
-* [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI) to be saved as `USAGDPDEFQISMEI.xlsx` 
-* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi Tbill3M.xlsx 
-* List of FOMC-Meetings to be saved as FOMCMeetings.xlsx 
-* [List of ECB Press Conferences from the Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home) to be saved as ECBPress.xlsx
+* `Bloomberg_futures.xlsx` saved in the sheet “2Y Treasury future”
+* `Bloomberg_futures.xlsx` saved in the sheet “5Y Treasury future”
+* `Bloomberg_futures.xlsx` saved in the sheet “10Y Treasury future”
+* `Bloomberg_futures.xlsx` saved in the sheet “3M EURODOLLAR”
+* [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI), to be saved as `USAGDPDEFQISMEI.xlsx` 
+* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi `Tbill3M.xlsx` 
+* List of FOMC-Meetings to be saved as `FOMCMeetings.xlsx` 
+* [List of ECB Press Conferences from the Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home) to be saved as `ECBPress.xlsx`
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
