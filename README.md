@@ -11,7 +11,9 @@ Please cite as:
 
 The replication files are provided in a chronological order
 
-Generates tables and figures  
+1) MF2GARCH_estimation.m generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis 
+2) Imports data sets and transforms them for the analysis in a stata format and some variable transformations. 
+3) Generates tables and figures  
 
 The scripts puts the figures of the paper into the folder 'Figures' and the tables into the folder 'Tables'.
 
@@ -27,7 +29,7 @@ The different datasets needed can be found here:
     * SP500_index_1983_2021.csv to be saved as SP.dta
     * EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
     * EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
-* Daily Returns for MF2-GARCH estimation 
+* Daily Returns  from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * FOMC sentiment index ([Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors 
