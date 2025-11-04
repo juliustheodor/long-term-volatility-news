@@ -41,7 +41,7 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * MOVE Index, retrieved from Bloomberg Terminal to be saved as Bloomberg_additional_indicators.xlsx 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal  Credit spread.xlsx (sheet “BASPCAAA Index”)
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) `TYVIX.xlsx`
-* CPIAUCSL.xlsx (?)
+* CPIAUCSL.xlsx 
 * Bloomberg_futures.xlsx (sheet “2Y Treasury future”) 
 * Bloomberg_futures.xlsx (sheet “5Y Treasury future”)
 * Bloomberg_futures.xlsx (sheet “10Y Treasury future”)
