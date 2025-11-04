@@ -18,14 +18,14 @@ The replication files are provided in a chronological order
 While the high-frequency return data (purchased from TickData) and the announcements data (purchased from Bloomberg Forecasts) used in our paper are proprietary and redistribution is not permitted, we cannot include the data in this repository. All data must be placed in the folder "raw data" using the correct file names. Please make sure to use the corresponding vintages, when available. The different datasets needed can be found here:
 
 #### Return Data 
-* Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) 
+* Bloomberg Forecasts for macroeconomic announcements: Bloomberg Terminal (Median Forecast, Actual Release, Release Date) to be saved in `Bloomberg2023.xlsx' 
 * High-frequency Return Data from Tick Data for S&P500 E-mini futures, S&P500 and the EuroStoxx 50 (obtained using TickWrite 7 Data Management Software with Chicago Time setting) from 2001 onwards:  
-    * S&P500 E-mini futures prices for 8:30 am EST: e_miniESfront_07_15_2022_07_03.csv to be saved as SPmini830.dta
-    * S&P500 E-mini futures prices for 10:00 am EST: e_miniESfront_08_45_2022_07_04.csv to be saved as SPmini10.dta
-    * S&P500 prices for 10:00 am EST: SP500_index_1983_2021.csv to be saved as SP.dta
-    * Euro Stoxx 50 prices for 8:30 am EST: EURO_7_15_XX.csv to be saved as Eurostoxx830.dta
-    * Euro Stoxx 50 prices for 10:00 am EST: EURO_8_45_XX.csv to be saved as Eurostoxx10.dta
-* Daily Returns from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as SPdailyneu.csv in mf2garch estimation from August 15, 1969 onwards. 
+    * S&P500 E-mini futures prices for 8:30 am EST: `e_miniESfront_07_15_2022_07_03.csv` to be saved as `SPmini830.dta`
+    * S&P500 E-mini futures prices for 10:00 am EST: `e_miniESfront_08_45_2022_07_04.csv` to be saved as `SPmini10.dta`
+    * S&P500 prices for 10:00 am EST: `SP500_index_1983_2021.csv` to be saved as `SP.dta`
+    * Euro Stoxx 50 prices for 8:30 am EST: `EURO_7_15_XX.csv` to be saved as `Eurostoxx830.dta`
+    * Euro Stoxx 50 prices for 10:00 am EST: `EURO_8_45_XX.csv` to be saved as `Eurostoxx10.dta`
+* Daily Returns from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as `SPdailyneu.csv` in mf2garch estimation from August 15, 1969 onwards. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
 * [FOMC sentiment index from Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors, to be saved as `sentiment_dec2020.xlsx`
