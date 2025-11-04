@@ -8,7 +8,7 @@ Please cite as:
 
 The replication files are provided in a chronological order
 
-1) `mf2garch estimation/MF2GARCH_estimation.m` (MATLALB) generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis. 
+1) `mf2garch estimation/MF2GARCH_estimation.m` (MATLAB) generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis. 
 2) `code/2_Import_Dataset.do` (Stata) imports raw datasets, harmonizes variables, and outputs analysis-ready Stata (.dta) files.
 3) `code/3_Empirical Analysis.do` (Stata) merges the previously generated analysis files, estimates the regression models, and exports publication-ready tables and figures. The do-file puts the figures of the paper into the folder 'figures' and the tables into the folder 'tables'.
 
