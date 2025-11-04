@@ -47,8 +47,7 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * Bloomberg_futures.xlsx (sheet “10Y Treasury future”) → ⇒ TreasuryFut10YVolaForecasts6.dta 
 * Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) → ⇒ EurodollarForecasts6.dta
 * T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) → ⇒ YieldCurveSlope.dta
-* USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
-* USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
+* [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI) to be saved as USAGDPDEFQISMEI.xlsx 
 * 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi Tbill3M.xlsx 
 * List of FOMC-Meetings to be saved as FOMCMeetings.xlsx 
 * [List of ECB Press Conferences from the Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home) to be saved as ECBPress.xlsx
