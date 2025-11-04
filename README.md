@@ -35,31 +35,25 @@ The different datasets needed can be found here:
 * [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) MacroUncertaintyToCirculate.xlsx (Vintage from February 2023) 
 * [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
 * Expanding window GJR-GARCH GJR_EW.xlsx, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. 
-* VIXCLS.xls FRED 
+* [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) VIXCLS.xls  
 * [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx) bauer_risk_index.xlsx
 * CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal 
-* MOVE Index, retrieved from Bloomberg Terminal 
+* MOVE Index, retrieved from Bloomberg Terminal to be saved as Bloomberg_additional_indicators.xlsx 
 * Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield), retrieved from Bloomberg Terminal  Credit spread.xlsx (sheet “BASPCAAA Index”)
 * [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) TYVIX.xlsx
 * CPIAUCSL.xlsx (?)
+* Bloomberg_futures.xlsx (sheet “2Y Treasury future”) → ⇒ TreasuryFut2yVolaForecasts6.dta
+* Bloomberg_futures.xlsx (sheet “5Y Treasury future”) → ⇒ TreasuryFut5yVolaForecasts6.dta
+* Bloomberg_futures.xlsx (sheet “10Y Treasury future”) → ⇒ TreasuryFut10YVolaForecasts6.dta 
+* Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) → ⇒ EurodollarForecasts6.dta
+* T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) → ⇒ YieldCurveSlope.dta
+* USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
-* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi
+* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi Tbill3M.xlsx 
 * FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
 * ECBPress.xlsx → ⇒ ECBPress.dta 
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
-
-
-Bloomberg_additional_indicators.xlsx (sheet “MOVE”, A6:B6447) → ⇒ MOVE.dta
-Futures-based volatility forecasts
-Bloomberg_futures.xlsx (sheet “2Y Treasury future”) → ⇒ TreasuryFut2yVolaForecasts6.dta
-Bloomberg_futures.xlsx (sheet “5Y Treasury future”) → ⇒ TreasuryFut5yVolaForecasts6.dta
-Bloomberg_futures.xlsx (sheet “10Y Treasury future”) → ⇒ TreasuryFut10YVolaForecasts6.dta (merges in boersenfeiertage.dta)
-Bloomberg_futures.xlsx (sheet “3M EURODOLLAR”) → ⇒ EurodollarForecasts6.dta (merges in boersenfeiertage.dta)
-T10Y3M.xls (FRED, sheet “FRED Graph”, A11:B11208) → ⇒ YieldCurveSlope.dta
-Tbill3M.xlsx (sheet “Daily”) → ⇒ TBill3M.dta
-USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
-
 
 
 ## Contact 
