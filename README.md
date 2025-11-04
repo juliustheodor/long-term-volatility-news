@@ -4,18 +4,15 @@ Please cite as:
 
 > Conrad, Christian and Schoelkopf, Julius Theodor and Tushteva, Nikoleta, Long-Term Volatility Shapes the Stock Market's Sensitivity to News (2025, first version 2023). Available at SSRN: http://dx.doi.org/10.2139/ssrn.4632733.
 
-
-
-
 ## Replication Files
 
 The replication files are provided in a chronological order
 
-1) mf2garch estimation/MF2GARCH_estimation.m (MATLALB) generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis 
-2) code/2_Import_Dataset.do (Stata) Imports data sets and transforms them for the analysis in a stata format and some variable transformations. 
-3) code/3_Empirical Analysis.do (Stata) Generates tables and figures  
+1) `mf2garch estimation/MF2GARCH_estimation.m` (MATLALB) generates MF2-GARCH volatility estimates (conditional volatility, long-term volatility, short-term volatility) used in the analysis 
+2) `code/2_Import_Dataset.do` (Stata) Imports data sets and transforms them for the analysis in a stata format and some variable transformations. 
+3) `code/3_Empirical Analysis.do` (Stata) Generates tables and figures  
 
-The scripts puts the figures of the paper into the folder 'Figures' and the tables into the folder 'Tables'.
+The scripts puts the figures of the paper into the folder 'figures' and the tables into the folder 'tables'.
 
 ## Data sets needed
 
