@@ -28,27 +28,27 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * Daily Returns from Tick Data for S&P500 for the MF2-GARCH estimation to be saved as `SPdailyneu.csv` in mf2garch estimation from August 15, 1969 onwards. 
 
 #### Control Variables (for Table 5 and A.3, A.5, A.6, A.13 and Figure A.3)  
-* [FOMC sentiment index from Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530)): obtained from the authors, to be saved as `sentiment_dec2020.xlsx`
-* [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ) to be saved as `CBOGap.xls` 
-* From the [Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): to be saved as `Tbill3M.xlsx`
-* [Husted et al. (2025) Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data)
-* [Macroeconomic Uncertainty (Jurado et al., 2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes) `MacroUncertaintyToCirculate.xlsx` (Vintage from February 2023) 
-* [Chicago Board Options Exchange, CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS) 
-* Expanding window GJR-GARCH forecasts, forecasts are obtained by running `mf2garch estimation/GJR_estimation` using the same data set of daily returns from Tick Data for S&P500 as for the MF2-GARCH estimation from August 15, 1969 onwards. To be saved as `GJR-GARCH GJR_EW.xlsx`.  
-* [CBOE Volatility Index (VIX) from FRED](https://fred.stlouisfed.org/series/VIXCLS) to be saved as `VIXCLS.xls`  
-* [Bauer et al. (2023). Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx), to be saved as `bauer_risk_index.xlsx`
-* CBOE/CBOT 10-year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal and to be saved as `TYVIX.xlsx`
-* MOVE Index, retrieved from Bloomberg Terminal to be saved in the file `Bloomberg_additional_indicators.xlsx` 
-* Credit Spread (Spread between moodys corporate bond A index yield and the us gov 10 year yield, BASPCAAA Index), retrieved from Bloomberg Terminal, to be saved as  `Credit spread.xlsx`
-* [10-year Treasury yields minus 3-month Treasury bill rates, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M) to be saved as `T10Y3M.xls` 
-* Last price 2Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “2Y Treasury future”
-* Last price 5Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “5Y Treasury future”
-* Last price 10Y Treasury futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “10Y Treasury future”
-* Last price 3M Eurodollar futures (daily) `Bloomberg_futures.xlsx` to be saved in the sheet “3M EURODOLLAR”
-* [GDP Deflator from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI), to be saved as `USAGDPDEFQISMEI.xlsx` 
-* 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi `Tbill3M.xlsx` 
-* List of FOMC-Meetings to be saved as `FOMCMeetings.xlsx` 
-* [List of ECB Press Conferences from the Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home) to be saved as `ECBPress.xlsx`
+* [FOMC Sentiment Index – Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530): obtained from the authors, to be saved as `sentiment_dec2020.xlsx`
+* [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ): to be saved as `CBOGap.xls`
+* [Interest Rate Forecasts from the Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): to be saved as `Tbill3M.xlsx`
+* [Husted et al. (2025) – Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data): to be saved as `MPUncertainty.xlsx`
+* [Macroeconomic Uncertainty – Jurado et al. (2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes): `MacroUncertaintyToCirculate.xlsx` (vintage from February 2023)
+* [CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS): to be saved as `VIXCLS.xls`
+* Expanding window GJR-GARCH forecasts, obtained by running `mf2garch estimation/GJR_estimation` using daily S&P500 returns from Tick Data (August 15, 1969 onward): to be saved as `GJR-GARCH_GJR_EW.xlsx`
+* [Bauer et al. (2023) – Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx): to be saved as `bauer_risk_index.xlsx`
+* CBOE/CBOT 10-Year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal: to be saved as `TYVIX.xlsx`
+* MOVE Index, retrieved from Bloomberg Terminal: to be saved as `Bloomberg_additional_indicators.xlsx`
+* Credit Spread (Moody’s A Corporate Bond Yield – U.S. 10-Year Treasury Yield, BASPCAAA Index), retrieved from Bloomberg Terminal: to be saved as `Credit_spread.xlsx`
+* [10-Year Treasury Yield minus 3-Month Treasury Bill Rate, retrieved from FRED](https://fred.stlouisfed.org/series/T10Y3M): to be saved as `T10Y3M.xls`
+* Last price 2Y Treasury futures (daily): to be saved as `Bloomberg_futures.xlsx`, sheet “2Y Treasury future”
+* Last price 5Y Treasury futures (daily): to be saved as `Bloomberg_futures.xlsx`, sheet “5Y Treasury future”
+* Last price 10Y Treasury futures (daily): to be saved as `Bloomberg_futures.xlsx`, sheet “10Y Treasury future”
+* Last price 3M Eurodollar futures (daily): to be saved as  `Bloomberg_futures.xlsx`, sheet “3M EURODOLLAR”
+* [GDP Deflator, retrieved from FRED](https://fred.stlouisfed.org/series/USAGDPDEFQISMEI): to be saved as `USAGDPDEFQISMEI.xlsx`
+* [3-Month Treasury Bill deflated by same-quarter CPI inflation (RR1_TBILL_CPI)](https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi): to be saved as `Tbill3M.xlsx`
+* List of FOMC meetings: to be saved as `FOMCMeetings.xlsx`
+* [List of ECB Press Conferences – Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home): to be saved as `ECBPress.xlsx`
+
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
