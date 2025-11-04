@@ -50,8 +50,8 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * USAGDPDEFQISMEI.xlsx (sheet “Quarterly”) → ⇒ GDPDeflator.dta
 * USAGDPDEFQISMEI.xlsx (?) GDP Deflator?
 * 3-Month Treasury Bill Deflated by Same-Quarter CPI Inflation (RR1_TBILL_CPI)  Source: https://www.philadelphiafed.org/surveys-and-data/rr1_tbill_cpi Tbill3M.xlsx 
-* FOMCMeetings.xlsx (sheet “Tabelle1”) → ⇒ FOMC.dta
-* ECBPress.xlsx → ⇒ ECBPress.dta 
+* List of FOMC-Meetings to be saved as FOMCMeetings.xlsx 
+* [List of ECB Press Conferences from the Altavilla et al. Database](https://sites.google.com/view/carlo-altavilla/home) to be saved as ECBPress.xlsx
 
 After running _2025_10_23_1_Import_Dataset.do_ in Stata, you can run the main analysis using _2025_10_23_Empirical Analysis.do_. The latter file produces all the tables and figures from the paper. 
 
