@@ -31,10 +31,10 @@ While the high-frequency return data (purchased from TickData) and the announcem
 * [FOMC Sentiment Index – Gardner et al. (2022)](https://www.sciencedirect.com/science/article/pii/S0304407621002530): obtained from the authors, to be saved as `sentiment_dec2020.xlsx`
 * [CBO Real Output Gap, retrieved from FRED](https://fred.stlouisfed.org/graph/?g=f1cZ): to be saved as `CBOGap.xls`
 * [Interest Rate Forecasts from the Philadelphia FED Survey of Professional Forecasters](https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters): to be saved as `Tbill3M.xlsx`
-* [Husted et al. (2025) – Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data): to be saved as `MPUncertainty.xlsx`
+* [Husted et al. (2025) – Monetary Policy Uncertainty](https://sites.google.com/site/lucasfhusted/data): to be saved as `mpu.csv`
 * [Macroeconomic Uncertainty – Jurado et al. (2015)](https://www.sydneyludvigson.com/macro-and-financial-uncertainty-indexes): `MacroUncertaintyToCirculate.xlsx` (vintage from February 2023)
 * [CBOE Volatility Index (VIX), retrieved from FRED](https://fred.stlouisfed.org/series/VIXCLS): to be saved as `VIXCLS.xls`
-* Expanding window GJR-GARCH forecasts, obtained by running `mf2garch estimation/GJR_estimation` using daily S&P500 returns from Tick Data (August 15, 1969 onward): to be saved as `GJR-GARCH_GJR_EW.xlsx`
+* Expanding window GJR-GARCH forecasts, obtained by running `mf2garch estimation/GJR_estimation` using daily S&P500 returns from Tick Data (August 15, 1969 onward): to be saved as `GJR_EW.xlsx`
 * [Bauer et al. (2023) – Risk Appetite and the Risk-Taking Channel of Monetary Policy](https://www.michaeldbauer.com/files/risk_index.xlsx): to be saved as `bauer_risk_index.xlsx`
 * CBOE/CBOT 10-Year U.S. Treasury Note Volatility (TYVIXSM), retrieved from Bloomberg Terminal: to be saved as `TYVIX.xlsx`
 * MOVE Index, retrieved from Bloomberg Terminal: to be saved as `Bloomberg_additional_indicators.xlsx`
