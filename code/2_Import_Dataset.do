@@ -1,5 +1,5 @@
 * Long-term volatility shapes the stock market's sensitivity to news 
-* Replication Package for the Journal of Econometrics 
+* Replication Package 
 * October 31, 2025 
 * Link to Read-Me File: https://github.com/juliustheodor/long-term-volatility-news
 
